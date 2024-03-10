@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Carter+One&display=swap');
+
+*{
+margin: 1;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: 'Bubblegum Sans', sans-serif;
+    font-size: 20px;
+}
+
+nav li {
+    margin-right: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: gray;
+    background: linear-gradient(black,grey);
+}
+
+
+h1 { 
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-family: 'Bubblegum Sans', sans-serif;
+}
+
+h2 { 
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+.image {
+    text-align: center;
+    }
+
+
+
+p { 
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 30px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
+    background-color: rgb(212, 157, 157);
+    transition: width 2s, height 4s;
+}
+
+
+
+button:hover {
+    background-color: grey;
+}
+
+label{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+h4{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 10px;
+}
+
+.formulario {
+    background-color: gray;
+    text-align: center;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+fieldset{
+    border: 0;
+}
+
+footer{
+    text-align: left;
+}
+
+.error {
+    background-color: red;
+    color: antiquewhite;
+}
