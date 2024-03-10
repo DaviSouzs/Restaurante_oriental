@@ -1,16 +1,11 @@
-const formulario = document.getElementById('formulario');
+const formulario = document.querySelector('form');
 const emailInput = document.getElementById('email');
 const checkbox = document.getElementById('termos');
-
-/*function validarEmail(email) {
-    let re = /\S+@\S+\.\S+/;
-    return re.test(email);
-}*/
 
 formulario.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    const email = emailInput.value();
+    const email = emailInput.value;
 
     if (!email) {
         alert('Por favor, preencha o campo de e-mail.');
